@@ -3,7 +3,10 @@ POST http://localhost:4200/user/signup
 Content-Type: application/json
 
 {
-   "email": "emkhasi89@gmail.com",
+   "email": "emkhasi@gmail.com",
    "password": "edrich",
    "username": "Edrich Mkhasi"
 }
+
+### Delete user per user_id
+DELETE http://localhost:4200/user/5eb98d6b3e33db647b40957d
