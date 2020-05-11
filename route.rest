@@ -1,0 +1,9 @@
+### Register user
+POST http://localhost:4200/user/signup
+Content-Type: application/json
+
+{
+   "email": "emkhasi89@gmail.com",
+   "password": "edrich",
+   "username": "Edrich Mkhasi"
+}
